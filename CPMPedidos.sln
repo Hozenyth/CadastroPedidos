@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Domain", "CpmPedidos\CpmPedidos.Domain.csproj", "{2CBD2C99-EA06-4CA8-97D5-26CFC1E0F029}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Interface", "CpmPedidos.Interfaces\CpmPedidos.Interface.csproj", "{ADA13C5E-7836-4BB5-B813-88995A65A653}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CpmPedidos.Repository", "CpmPedidos.Repository\CpmPedidos.Repository.csproj", "{84228ED0-9C7A-479F-B8F2-4D56BDF1E4D4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{2CBD2C99-EA06-4CA8-97D5-26CFC1E0F029}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2CBD2C99-EA06-4CA8-97D5-26CFC1E0F029}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2CBD2C99-EA06-4CA8-97D5-26CFC1E0F029}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ADA13C5E-7836-4BB5-B813-88995A65A653}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ADA13C5E-7836-4BB5-B813-88995A65A653}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ADA13C5E-7836-4BB5-B813-88995A65A653}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ADA13C5E-7836-4BB5-B813-88995A65A653}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84228ED0-9C7A-479F-B8F2-4D56BDF1E4D4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84228ED0-9C7A-479F-B8F2-4D56BDF1E4D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84228ED0-9C7A-479F-B8F2-4D56BDF1E4D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84228ED0-9C7A-479F-B8F2-4D56BDF1E4D4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
